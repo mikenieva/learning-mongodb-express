@@ -67,8 +67,8 @@ Mongoose es una librería que permite modelar datos en NodeJS hacia MongoDB. Inc
 | `/estudiantes` |    GET    | Entrega todos los estudiantes |
 | `/estudiantes/new` |    POST    | Agrega un estudiante |
 | `/estudiantes/:id` |    GET    | Entrega datos de ese estudiante |
-| `/estudiantes/:id/edit` |    POST    | Actualiza un estudiante |
-| `/estudiantes/:id/delete` |    DELETE    | Borra un estudiante |
+| `/estudiantes/:id` |    POST    | Actualiza un estudiante |
+| `/estudiantes/:id` |    DELETE    | Borra un estudiante |
 
 
 Utiliza Postman para probar cada ruta y revisa en MongoDB Compass ó en "Mongo Shell" que los datos se estén manipulando.
