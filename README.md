@@ -41,7 +41,7 @@ de MongoDB. Recuerda levantar el servicio mongod.
 
 ```
 $ npm init -y
-$ npm install express mongoose body-parser
+$ npm install express mongoose body-parser nodemon
 ```
 
 Express es un framework de NodeJS que te permite construir aplicaciones web, incluyendo creación de APIs .
